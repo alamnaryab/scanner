@@ -1,0 +1,41 @@
+{
+  "devDependencies": {
+    "cordova-plugin-battery-status": "^1.2.5",
+    "cordova-plugin-camera": "^2.4.1",
+    "cordova-plugin-device": "^1.1.7",
+    "cordova-plugin-dialogs": "^1.3.4",
+    "cordova-plugin-file": "^4.3.3",
+    "cordova-plugin-geolocation": "^2.4.3",
+    "cordova-plugin-globalization": "^1.0.9",
+    "cordova-plugin-inappbrowser": "^1.7.2",
+    "cordova-plugin-media-capture": "^1.4.3",
+    "cordova-plugin-network-information": "^1.3.4",
+    "cordova-plugin-vibration": "^2.1.6",
+    "cordova-plugin-document-scanner@4.x.x": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-battery-status": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-media-capture": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-globalization": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-document-scanner@4.x.x": {},
+      "cordova-plugin-document-scanner": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "^8.1.0",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-document-scanner": "git+https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner.git"
+  }
+}

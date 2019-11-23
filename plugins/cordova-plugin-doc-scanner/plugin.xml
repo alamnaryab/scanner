@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-doc-scanner"
+    version="1.0.1">
+
+<name>Document Scanner</name>
+<description>Cordova plugin to scan documents.</description>
+<author>Arthur Saprunov</author>
+<repo>https://github.com/Skydragonsz/cordova-plugin-document-scanner.git</repo>
+<issue>https://github.com/Skydragonsz/cordova-plugin-document-scanner/issues</issue>
+
+<info>Document scanner plugin</info>
+
+<js-module src="www/js/DocScanner.js" name="DocScanner">
+    <clobbers target="DocScanner" />
+</js-module>
+
+<platform name="ios">
+
+    <!-- config file -->
+    <config-file target="config.xml" parent="/*">
+        <feature name="DocScanner">
+            <param name="ios-package" value="DocScanner" />
+        </feature>
+    </config-file>
+
+    <!-- core CustomCamera header and source files -->
+
+    <header-file src="src/ios/DocScanner.h" />
+    <source-file src="src/ios/DocScanner.m" />
+
+    <header-file src="src/ios/DocScannerViewControllerMain.h" />
+    <source-file src="src/ios/DocScannerViewControllerMain.m" />
+
+    <header-file src="src/ios/DocScannerViewControllerPreview.h" />
+    <source-file src="src/ios/DocScannerViewControllerPreview.m" />
+
+    <header-file src="src/ios/IPDFCameraViewController.h" />
+    <source-file src="src/ios/IPDFCameraViewController.m" />
+
+    <header-file src="src/ios/OrientationHelper.h" />
+    <source-file src="src/ios/OrientationHelper.m" />
+
+    <source-file src="src/ios/Images.xcassets/capture_button.imageset/capture_button@2x.png" />
+    <source-file src="src/ios/Images.xcassets/focusIndicator.imageset/focusIndicator.png" />
+    <source-file src="src/ios/Images.xcassets/focusIndicator.imageset/focusIndicator@2x.png" />
+    <source-file src="src/ios/Images.xcassets/closecamera.imageset/closecamera@2x.png" />
+    <source-file src="src/ios/Images.xcassets/flashoff.imageset/flashoff@2x.png" />
+    <source-file src="src/ios/Images.xcassets/flashon.imageset/flashon@2x.png" />
+    <source-file src="src/ios/Images.xcassets/cropon.imageset/cropon@2x.png" />
+    <source-file src="src/ios/Images.xcassets/cropoff.imageset/cropoff@2x.png" />
+
+    <resource-file src="src/ios/DocScannerMain.storyboard" />
+
+    <framework src="Foundation.framework" />
+    <framework src="SystemConfiguration.framework" />
+    <framework src="CoreTelephony.framework" />
+    <framework src="AssetsLibrary.framework" />
+    <framework src="MobileCoreServices.framework" />
+    <framework src="CoreGraphics.framework" />
+    <framework src="AVFoundation.framework" />
+    <framework src="QuartzCore.framework" />
+
+</platform>
+
+</plugin>

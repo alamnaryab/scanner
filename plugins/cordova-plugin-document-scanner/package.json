@@ -1,0 +1,63 @@
+{
+  "_from": "git+https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner.git",
+  "_id": "cordova-plugin-document-scanner@4.2.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-document-scanner",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner",
+    "rawSpec": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner",
+    "saveSpec": "git+https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner.git",
+    "fetchSpec": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner.git#6c24fc60c0bb4ca61a28451c1a7b5f6796512993",
+  "_spec": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner",
+  "_where": "D:\\apps\\pgapps\\scan",
+  "author": {
+    "name": "jatahworx"
+  },
+  "bugs": {
+    "url": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-document-scanner",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "cordova plugin for document scanner",
+  "engines": {
+    "cordovaDependencies": {
+      "cordova-android": ">=6.4.0",
+      "cordova-ios": ">=4.5.4"
+    }
+  },
+  "homepage": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner#readme",
+  "keywords": [
+    "cordova",
+    "camera",
+    "document",
+    "scan",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "document scanner"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-document-scanner",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner.git"
+  },
+  "version": "4.2.1"
+}
